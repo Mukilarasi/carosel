@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <h1>CSS-only Carousel</h1>
+
+  <p>This carousel is created with HTML and CSS only.</p>
+
+  <section class="carousel" aria-label="Gallery">
+    <ol class="carousel__viewport">
+      <li id="carousel__slide1" tabindex="0" class="carousel__slide">
+        <div class="carousel__snapper">
+          <div
+            style=" background-image: url('https://thumbs.dreamstime.com/z/environment-earth-day-hands-trees-growing-seedlings-bokeh-green-background-female-hand-holding-tree-nature-field-gra-130247647.jpg');"
+            class="img1"> </div>
+        </div>
+      </li>
+      <li id="carousel__slide2" tabindex="0" class="carousel__slide">
+        <div class="carousel__snapper"></div>
+        <div style="background-image: url('https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg');"
+          class="img2"> </div>
+      </li>
+      <li id="carousel__slide3" tabindex="0" class="carousel__slide">
+        <div class="carousel__snapper"></div>
+        <div style="background-image: url('https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072821__340.jpg');"
+          class="img3"> </div>
+
+      <li id="carousel__slide4" tabindex="0" class="carousel__slide">
+        <div class="carousel__snapper"></div>
+        <div style="background-image: url('https://wallpaperaccess.com/full/2514219.jpg');" class="img4"> </div>
+      </li>
+    </ol>
+    <aside class="carousel__navigation">
+      <ol class="carousel__navigation-list">
+        <li class="carousel__navigation-item">
+          <a href="#carousel__slide1" class="carousel__navigation-button">Go to slide 1</a>
+        </li>
+        <li class="carousel__navigation-item">
+          <a href="#carousel__slide2" class="carousel__navigation-button">Go to slide 2</a>
+        </li>
+        <li class="carousel__navigation-item">
+          <a href="#carousel__slide3" class="carousel__navigation-button">Go to slide 3</a>
+        </li>
+        <li class="carousel__navigation-item">
+          <a href="#carousel__slide4" class="carousel__navigation-button">Go to slide 4</a>
+        </li>
+      </ol>
+    </aside>
+  </section>
+</body>
+
+</html>
